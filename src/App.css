@@ -40,3 +40,85 @@
 .read-the-docs {
   color: #888;
 }
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Background */
+body {
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: white;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #ff4ecd;
+  text-shadow: 0 0 10px #ff4ecd;
+}
+
+/* Section headers */
+h2 {
+  margin-bottom: 15px;
+  color: #00f7ff;
+}
+
+/* Buttons */
+button {
+  background-color: #ff4ecd;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  margin: 5px 5px 5px 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff1fbf;
+  transform: scale(1.05);
+}
+
+/* Track cards */
+.track-card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 10px rgba(0, 247, 255, 0.2);
+}
+
+/* Form */
+form {
+  margin-top: 25px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+/* Now Playing */
+.now-playing {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(0, 247, 255, 0.15);
+  box-shadow: 0 0 15px #00f7ff;
+}
